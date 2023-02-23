@@ -16,8 +16,17 @@ import s from './style.module.scss'
 import { display } from "@mui/system";
 
 function Tablee({ data, deletePost,quantityInPost ,quantityDePost,mapindex}) {
+  let [loading, setloading] = useState<boolean>(true);
+  let [modal, setModal] = useState<boolean>(false);
+  setTimeout(() => {
+    setloading(() => false);
+  }, 100);
   return (
-    <div  className={s.block}>
+    <>
+    {loading?(
+<>Looging</>
+):(
+  <div  className={s.block}>
         <Accordion>
       <AccordionSummary
         expandIcon={
@@ -101,6 +110,10 @@ function Tablee({ data, deletePost,quantityInPost ,quantityDePost,mapindex}) {
       </AccordionDetails>
     </Accordion>
     </div>
+)}
+  
+    </>
+
   
   );
 }
