@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
@@ -16,8 +16,8 @@ import s from './style.module.scss'
 import { display } from "@mui/system";
 
 function Tablee({ data, deletePost,quantityInPost ,quantityDePost,mapindex}) {
-  let [loading, setloading] = useState<boolean>(true);
-  let [modal, setModal] = useState<boolean>(false);
+  let [loading, setloading] = useState(true);
+  let [modal, setModal] = useState(false);
   setTimeout(() => {
     setloading(() => false);
   }, 100);
