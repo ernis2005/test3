@@ -309,42 +309,52 @@ function Header() {
         </div>
         <div className={s.content4_s}>
           <h2>Адрес доставки</h2>
+         
           <div className={s.content2_block1}>
-            <TextField
-              className={s.content2_block1_TextField}
-              id="filled-basic"
-              label="Страна"
-              variant="filled"
-            />
-            <TextField
-              className={s.content2_block1_TextField}
-              id="filled-basic"
-              label="Город"
-              variant="filled"
-            />
-          </div>
-          <div className={s.content2_block1}>
-            <TextField
-              className={s.content2_block1_TextField}
-              id="filled-basic"
-              label="Улица"
-              variant="filled"
-            />
-            <TextField
-              className={s.content2_block1_TextField}
-              id="filled-basic"
-              label="Квартира"
-              variant="filled"
-            />
-            <br />
-            <br />
-            <TextField
-              className={s.content2_block1_TextField}
-              id="filled-basic"
-              label="Дом"
-              variant="filled"
-            />
-          </div>
+         
+         <TextField
+           className={s.content2_block1_TextField}
+           id="filled-basic"
+           label="Страна"
+           variant="filled"
+         />
+         <TextField
+       
+           className={s.content2_block1_TextField}
+           id="filled-basic"
+           label="Город"
+           variant="filled"
+         />
+       </div>
+       <div className={s.content2_block1}>
+         <TextField
+           className={s.content2_block1_TextField}
+           id="filled-basic"
+           label="Улица"
+           variant="filled"
+         />
+         <box 
+         sx={{   marginTop:200,}}>
+         <TextField
+           className={s.content2_block1_TextField}
+           id="filled-basic"
+           label="Квартира"
+           variant="filled"
+         />
+         </box>
+       
+         <br />
+         <br />
+         <TextField
+         
+           className={s.content2_block1_TextField}
+           id="filled-basic"
+           label="Дом"
+           variant="filled"
+         />
+       </div>
+
+        
         </div>
         <div className={s.content5_s}>
           <p>Указать домофон, этаж, подъезд и комментарий к адресу</p>
