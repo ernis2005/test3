@@ -1,0 +1,61 @@
+.block {
+  width: 100%;
+  margin: 0 auto;
+  background: #f8f8f8;
+  .menu {
+    max-width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .a {
+      display: flex;
+      margin-top: 15px;
+      flex-wrap: wrap;
+      a {
+        margin-left: 15px;
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 100%;
+        color: #333333;
+      }
+    }
+    .menu_block2 {
+      display: flex;
+      gap: 30px;
+      .email {
+        display: flex;
+        font-family: "SF Pro Display";
+        font-weight: 300;
+        font-size: 14px;
+        color: #3333;
+        margin-top: 15px;
+      }
+      .CgMail {
+        margin-top: 1px;
+        position: relative;
+      }
+      .tel {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #e11e26;
+        margin-left: 3px;
+        
+        border-bottom: 1px solid red;
+      }
+      .BsTelephone {
+        font-size: 10px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:770px) {
+  .block{
+    display: none;
+  }
+  
+}

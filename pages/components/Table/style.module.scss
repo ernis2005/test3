@@ -1,0 +1,43 @@
+.TableCell{
+    display: flex;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    justify-content: space-around;
+
+    button{
+        border: none;
+        background-color: rgba(240, 255, 255, 0);
+    }
+}
+.deletePost{
+    margin-top: 40px;
+    background-color: #f7f7f700;
+    border: none;
+}
+.block{
+    max-width: 700px;
+
+}
+@media screen and (max-width:699px) {
+    .block{
+        max-width: 500px;
+    
+    }
+    
+}
+@media screen and (max-width:513px) {
+    .block{
+        max-width: 340px;
+    
+    }
+    
+}
+@media screen and (max-width:389px) {
+    .block{
+        max-width: 340px;
+        margin-left: -40px;
+    
+    }
+    
+}
+

@@ -1,0 +1,21 @@
+.block{
+    
+    z-index: 10003333;
+    width: 300px;
+    height: 300px;
+    border: 1px black solid;
+ 
+    color: aliceblue;
+   background-color: aliceblue;
+}
+@media screen and (max-width:469px){
+    .block{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:469px){
+    .block{
+        margin-left: 50px;
+    }
+}

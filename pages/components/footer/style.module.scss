@@ -1,0 +1,77 @@
+.herder {
+    background: #262626;
+
+    .block {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        h1 {
+            font-family: "SF Pro Display";
+
+            line-height: 100%;
+            font-weight: 700;
+            font-size: 40px;
+            margin-top: 10px;
+            color: #ffffff;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: space-between;
+        }
+    }
+}
+
+.block1 {
+    
+    margin: 0 auto;
+
+    .menu2 {
+        margin: 0 auto;
+
+        .a {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-top: 15px;
+
+            p {
+                color: #fff;
+                font-size: 24px;
+            }
+
+            a {
+                font-family: "SF Pro Display";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 100%;
+                margin-top: 10px;
+                /* identical to box height, or 14px */
+
+                /* Wight */
+
+                color: #444444;
+            }
+        }
+    }
+}
+.the{
+    padding: 50px;
+    p{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Wight */
+
+color: #FFFFFF;
+
+opacity: 0.5;
+    }
+}
